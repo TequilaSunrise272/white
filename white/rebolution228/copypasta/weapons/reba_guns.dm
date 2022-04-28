@@ -59,7 +59,7 @@
 // магазин
 /obj/item/ammo_box/magazine/hs010
 	name = "HS 010 Magazine"
-	icon = 'white/rebolution228/icons/weapons/rammo.dmi'
+	icon = null
 	icon_state = "hs010ammo"
 	ammo_type = /obj/item/ammo_casing/c25mm
 	caliber = "c25mm"

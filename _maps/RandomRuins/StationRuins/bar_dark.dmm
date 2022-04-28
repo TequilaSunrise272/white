@@ -890,10 +890,6 @@
 	dir = 8
 	},
 /obj/structure/table/wood/fancy/royalblack,
-/obj/item/ashtray{
-	pixel_x = -5;
-	pixel_y = -5
-	},
 /obj/item/food/grown/poppy/geranium{
 	pixel_y = 5
 	},
@@ -1184,7 +1180,6 @@
 	dir = 8
 	},
 /obj/structure/table/wood/fancy/royalblack,
-/obj/item/ashtray,
 /turf/open/floor/plasteel/dark,
 /area/service/bar)
 "cV" = (
@@ -1457,7 +1452,6 @@
 	dir = 8
 	},
 /obj/structure/table/wood/poker,
-/obj/item/ashtray,
 /obj/item/clothing/mask/cigarette/cigar,
 /turf/open/floor/plasteel/dark,
 /area/service/bar)

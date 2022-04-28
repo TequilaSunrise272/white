@@ -3604,7 +3604,6 @@
 	specialfunctions = 4
 	},
 /obj/item/bedsheet/dorms,
-/obj/item/toy/plush/bear,
 /turf/open/floor/carpet,
 /area/commons/dorms/cabin/two)
 "asM" = (
@@ -19386,7 +19385,7 @@
 	roundstart_template = /datum/map_template/shuttle/mining/large;
 	width = 7
 	},
-/turf/open/floor/engine/hull/oxy,
+/turf/open/floor/plating,
 /area/space/nearstation)
 "bJd" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -29264,7 +29263,7 @@
 	name = "NT SS13: Cargo Bay";
 	width = 12
 	},
-/turf/open/floor/engine/hull/oxy,
+/turf/open/floor/plating,
 /area/space/nearstation)
 "cyU" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -36454,7 +36453,7 @@
 /area/ai_monitored/turret_protected/ai)
 "ilp" = (
 /obj/structure/grille,
-/turf/open/floor/engine/hull/oxy,
+/turf/open/floor/plating,
 /area/space/nearstation)
 "ilT" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -40382,7 +40381,7 @@
 /obj/machinery/camera/autoname{
 	dir = 1
 	},
-/turf/open/floor/engine/hull/oxy,
+/turf/open/floor/plating,
 /area/space/nearstation)
 "mRq" = (
 /obj/machinery/power/apc{
@@ -43067,7 +43066,7 @@
 /obj/machinery/camera/autoname{
 	dir = 5
 	},
-/turf/open/floor/engine/hull/oxy,
+/turf/open/floor/plating,
 /area/space/nearstation)
 "pDd" = (
 /obj/effect/turf_decal/stripes/line{
@@ -44509,7 +44508,7 @@
 /turf/open/floor/carpet,
 /area/service/library/upper)
 "rhJ" = (
-/turf/open/floor/engine/hull/oxy,
+/turf/open/floor/plating,
 /area/space/nearstation)
 "rhT" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
@@ -44697,7 +44696,7 @@
 	set_cap = 1;
 	set_luminosity = 4
 	},
-/turf/open/floor/engine/hull/oxy,
+/turf/open/floor/plating,
 /area/space/nearstation)
 "rvy" = (
 /obj/structure/ladder,
@@ -48805,7 +48804,7 @@
 /obj/machinery/camera/autoname{
 	dir = 1
 	},
-/turf/open/floor/engine/hull/oxy,
+/turf/open/floor/plating,
 /area/space/nearstation)
 "vXB" = (
 /obj/structure/cable,

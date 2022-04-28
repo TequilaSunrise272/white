@@ -3431,10 +3431,6 @@
 	pixel_x = -6;
 	pixel_y = 9
 	},
-/obj/item/ashtray{
-	pixel_x = 6;
-	pixel_y = 8
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
@@ -4280,7 +4276,6 @@
 	dir = 8
 	},
 /obj/structure/table/wood/poker,
-/obj/item/ashtray,
 /obj/item/clothing/mask/cigarette/cigar,
 /turf/open/floor/plasteel/dark,
 /area/service/bar)
@@ -11949,7 +11944,6 @@
 	dir = 8
 	},
 /obj/structure/table/wood/fancy/royalblack,
-/obj/item/ashtray,
 /turf/open/floor/plasteel/dark,
 /area/service/bar)
 "zS" = (
@@ -19376,7 +19370,6 @@
 	dir = 4
 	},
 /obj/structure/table,
-/obj/item/ashtray,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit/departure_lounge/shop)
 "Qn" = (
@@ -21144,10 +21137,6 @@
 	dir = 8
 	},
 /obj/structure/table/wood/fancy/royalblack,
-/obj/item/ashtray{
-	pixel_x = -5;
-	pixel_y = -5
-	},
 /obj/item/food/grown/poppy/geranium{
 	pixel_y = 5
 	},

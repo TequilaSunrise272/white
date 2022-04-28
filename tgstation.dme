@@ -4186,7 +4186,6 @@
 #include "white\qwaszx000\winners.dm"
 #include "white\qwaszx000\loly\loly.dm"
 #include "white\rebolution228\map_stuff.dm"
-#include "white\rebolution228\copypasta\weapons\reba_guns.dm"
 #include "white\RedFoxIV\code\Crutches_Gigapack.dm"
 #include "white\RedFoxIV\code\obj\emergency_shield.dm"
 #include "white\RedFoxIV\code\obj\item_generator_bags.dm"

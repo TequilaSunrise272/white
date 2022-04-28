@@ -6895,7 +6895,6 @@
 /area/maintenance/bottom_station_maints/south)
 "pn" = (
 /obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/thermos,
 /obj/machinery/light/small,
 /obj/machinery/camera/autoname{
 	dir = 1
@@ -10945,8 +10944,7 @@
 /obj/machinery/airalarm{
 	dir = 1;
 	pixel_y = -23
-	},
-/obj/item/reagent_containers/food/drinks/thermos{
+	},{
 	pixel_x = 8;
 	pixel_y = 7
 	},
@@ -19680,8 +19678,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/structure/table,
-/obj/item/melee/fan{
+/obj/structure/table{
 	dir = 4
 	},
 /turf/open/floor/plasteel,

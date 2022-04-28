@@ -27,7 +27,7 @@
 	head = /obj/item/clothing/head/helmet
 	belt = /obj/item/defibrillator/compact/loaded
 	ears = /obj/item/radio/headset/headset_medsec
-	uniform = /obj/item/clothing/under/rank/medical
+	uniform = /obj/item/clothing/under/rank/medical/brigphys
 	shoes = /obj/item/clothing/shoes/jackboots
 	suit = /obj/item/clothing/suit/armor
 	l_hand = /obj/item/storage/backpack/duffelbag/med/surgery

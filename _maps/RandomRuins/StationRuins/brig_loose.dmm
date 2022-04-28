@@ -805,10 +805,6 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/storage/toolbox/ammo/wt550{
-	pixel_x = -4;
-	pixel_y = 12
-	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "cj" = (
@@ -907,9 +903,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/shield/riot/military,
 /obj/item/shield/riot/military,
-/obj/item/stack/sheet/armor_plate/ablative/three,
-/obj/item/stack/sheet/armor_plate/ceramic/three,
-/obj/item/stack/sheet/armor_plate/plasteel/three,
+/obj/item/stack/sheet/plasteel_armor_plate{
+	amount = 6
+	},
+/obj/item/stack/sheet/plasteel_armor_plate{
+	amount = 6
+	},
 /obj/item/full_armor_upgrade,
 /obj/item/full_armor_upgrade,
 /turf/open/floor/plasteel/dark,
@@ -2115,8 +2114,7 @@
 "fg" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Equipment Room";
-	req_access_txt = "1";
-	security_level = 6
+	req_access_txt = "1"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2406,12 +2404,6 @@
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/button/door{
-	id = "briggateteh";
-	name = "Бронешторы";
-	pixel_x = 39;
-	pixel_y = 6
-	},
 /turf/open/floor/plasteel,
 /area/security/main)
 "fK" = (
@@ -2849,10 +2841,6 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
-/obj/machinery/door/poddoor/preopen{
-	id = "briggateteh";
-	name = "security blast door"
-	},
 /turf/open/floor/plasteel,
 /area/security/main)
 "gv" = (
@@ -2889,8 +2877,7 @@
 "gI" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Brig Control";
-	req_access_txt = "3";
-	security_level = 6
+	req_access_txt = "3"
 	},
 /obj/structure/cable,
 /obj/machinery/door/firedoor/border_only{
@@ -2974,8 +2961,7 @@
 "hD" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Brig Control";
-	req_access_txt = "3";
-	security_level = 6
+	req_access_txt = "3"
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3367,9 +3353,6 @@
 /obj/machinery/holopad,
 /turf/open/floor/plasteel/white,
 /area/security/brig)
-"Cp" = (
-/turf/closed/wall/r_wall,
-/area/command/heads_quarters/hos)
 "IV" = (
 /obj/effect/landmark/start/security_officer,
 /obj/effect/turf_decal/tile/red{
@@ -5203,7 +5186,7 @@ ab
 ad
 ag
 ab
-be
+bf
 aD
 by
 bN
@@ -5291,7 +5274,7 @@ ab
 ab
 ag
 ab
-be
+bf
 aE
 aE
 aE
@@ -5379,15 +5362,15 @@ ab
 ab
 ab
 ag
-be
+bf
 bx
 aD
 aD
 aD
 aD
-be
-be
-be
+bf
+bf
+bf
 eB
 eZ
 fh
@@ -5423,7 +5406,7 @@ ad
 ad
 ad
 ad
-Cp
+bh
 bh
 bh
 cs
@@ -5467,7 +5450,7 @@ ab
 ab
 ab
 ad
-Cp
+bh
 aG
 bE
 cp
@@ -5517,7 +5500,7 @@ bQ
 ct
 cP
 bk
-Cp
+bh
 dP
 ee
 ee
@@ -5605,7 +5588,7 @@ bS
 cv
 cv
 do
-Cp
+bh
 dR
 eg
 eg
@@ -5643,7 +5626,7 @@ ab
 ab
 ab
 ad
-Cp
+bh
 bD
 bT
 cw
@@ -5687,12 +5670,12 @@ ab
 ab
 ab
 VP
-Cp
-Cp
-Cp
-Cp
-Cp
-Cp
+bh
+bh
+bh
+bh
+bh
+bh
 bh
 IV
 ei

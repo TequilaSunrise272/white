@@ -9,8 +9,8 @@
 #define MAX_ACTIVE_TIME 400
 
 /obj/item/clothing/mask/facehugger
-	name = "лицехват"
-	desc = "У него очень цепкие когти, а на конце хвоста какое то отверстие."
+	name = "alien"
+	desc = "It has some sort of a tube at the end of its tail."
 	icon = 'icons/mob/alien.dmi'
 	icon_state = "facehugger"
 	inhand_icon_state = "facehugger"
@@ -65,11 +65,11 @@
 		return
 	switch(stat)
 		if(DEAD,UNCONSCIOUS)
-			. += "<hr><span class='boldannounce'>[capitalize(src.name)] оно не двигается.</span>"
+			. += "<hr><span class='boldannounce'>[capitalize(src.name)] is not moving.</span>"
 		if(CONSCIOUS)
-			. += "<hr><span class='boldannounce'>[capitalize(src.name)] оно шевелится!</span>"
+			. += "<hr><span class='boldannounce'>[capitalize(src.name)] seems to be active!</span>"
 	if (sterile)
-		. += "<hr><span class='boldannounce'>Похоже эта особь стерильна.</span>"
+		. += "<hr><span class='boldannounce'>It looks like the proboscis has been removed.</span>"
 
 /obj/item/clothing/mask/facehugger/should_atmos_process(datum/gas_mixture/air, exposed_temperature)
 	return (exposed_temperature > 300)
@@ -129,8 +129,6 @@
 		// gotta be able to have the xeno implanted
 		if(HAS_TRAIT(M, TRAIT_XENO_IMMUNE))
 			return FALSE
-//		if(HAS_TRAIT(M, TRAIT_PARASITE_IMMUNE))
-//			return
 		// carbon, has head, not alien or devil, has no hivenode or embryo: valid
 		return TRUE
 
@@ -144,8 +142,8 @@
 		if(target.wear_mask && istype(target.wear_mask, /obj/item/clothing/mask/facehugger))
 			return FALSE
 	// passed initial checks - time to leap!
-	M.visible_message(span_danger("[capitalize(src.name)] вцепляется в лицо [M]!") , \
-							span_userdanger("[capitalize(src.name)] вцепляется в мое лицо!"))
+	M.visible_message(span_danger("[capitalize(src.name)] leaps at [M] face!") , \
+							span_userdanger("[capitalize(src.name)] leaps at your face!"))
 
 	// probiscis-blocker handling
 	if(iscarbon(M))
@@ -154,16 +152,16 @@
 		if(ishuman(M))
 			var/mob/living/carbon/human/H = M
 			if(H.is_mouth_covered(head_only = 1))
-				H.visible_message(span_danger("[capitalize(src.name)] бессильно разбивается о [H.head] [H]!") , \
-									span_userdanger("[capitalize(src.name)] бессильно разбивается о [H.head]!"))
+				H.visible_message(span_danger("[capitalize(src.name)] smashes against [H] [H.head]!") , \
+									span_userdanger("[capitalize(src.name)] smashes against your [H.head]!"))
 				Die()
 				return FALSE
 
 		if(target.wear_mask)
 			var/obj/item/clothing/W = target.wear_mask
 			if(target.dropItemToGround(W))
-				target.visible_message(span_danger("[capitalize(src.name)] срывает [W] и вцепляется в лицо [target]!") , \
-									span_userdanger("[capitalize(src.name)] срывает [W] и вцепляется в мое лицо!"))
+				target.visible_message(span_danger("[capitalize(src.name)] tears [W] off of [target] face!") , \
+									span_userdanger("[capitalize(src.name)] tears [W] off of your face!"))
 		target.equip_to_slot_if_possible(src, ITEM_SLOT_MASK, 0, 1, 1)
 	return TRUE // time for a smoke
 
@@ -197,22 +195,21 @@
 			return
 
 	if(!sterile)
-		target.visible_message(span_danger("[capitalize(src.name)] безвольно отваливается от лица [target]!") , \
-								span_userdanger("[capitalize(src.name)] безвольно отваливается от моего лица!"))
+		target.visible_message(span_danger("[capitalize(src.name)] falls limp after violating [target] face!") , \
+								span_userdanger("[capitalize(src.name)] falls limp after violating your face!"))
 
 		Die()
 		icon_state = "[initial(icon_state)]_impregnated"
 
 		var/obj/item/bodypart/chest/LC = target.get_bodypart(BODY_ZONE_CHEST)
 		if((!LC || LC.status != BODYPART_ROBOTIC) && !target.getorgan(/obj/item/organ/body_egg/alien_embryo))
-			if(!HAS_TRAIT(target, TRAIT_PARASITE_IMMUNE))
-				new /obj/item/organ/body_egg/alien_embryo(target)
-				var/turf/T = get_turf(target)
-				log_game("[key_name(target)] был заражен лицехватом [loc_name(T)]")
+			new /obj/item/organ/body_egg/alien_embryo(target)
+			var/turf/T = get_turf(target)
+			log_game("[key_name(target)] was impregnated by a facehugger at [loc_name(T)]")
 
 	else
-		target.visible_message(span_danger("[capitalize(src.name)] бестолково тычется в лицо [target]!") , \
-								span_userdanger("[capitalize(src.name)] бестолково тычется в мое лицо!"))
+		target.visible_message(span_danger("[capitalize(src.name)] violates [target] face!") , \
+								span_userdanger("[capitalize(src.name)] violates your face!"))
 
 /obj/item/clothing/mask/facehugger/proc/GoActive()
 	if(stat == DEAD || stat == CONSCIOUS)
@@ -238,7 +235,7 @@
 	inhand_icon_state = "facehugger_inactive"
 	stat = DEAD
 
-	visible_message(span_danger("[capitalize(src.name)] сворачивается в клубок!"))
+	visible_message(span_danger("[capitalize(src.name)] curls up into a ball!"))
 
 /proc/CanHug(mob/living/M)
 	if(!istype(M))
@@ -256,8 +253,8 @@
 	return FALSE
 
 /obj/item/clothing/mask/facehugger/lamarr
-	name = "Ламарр"
-	desc = "Питомец директора по исследованиям, одомашненный лицехват. И да, попытки совокупится с вашей головой носят исключительно дружелюбный характер."
+	name = "Lamarr"
+	desc = "The Research Director's pet, a domesticated and debeaked xenomorph facehugger. Friendly, but may still try to couple with your head."
 	sterile = TRUE
 
 /obj/item/clothing/mask/facehugger/dead
@@ -274,7 +271,7 @@
 
 /obj/item/clothing/mask/facehugger/toy
 	inhand_icon_state = "facehugger_inactive"
-	desc = "Любимая игрушка-прикол всех шахтеров и рейнджеров. Что может быть лучше чем лицехват в корзине для белья или кровати? Эта шутка никогда не устареет."
+	desc = "A toy often used to play pranks on other miners by putting it in their beds. It takes a bit to recharge after latching onto something."
 	real = FALSE
 	sterile = TRUE
 	tint = 3 //Makes it feel more authentic when it latches on

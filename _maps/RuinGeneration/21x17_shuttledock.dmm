@@ -44,50 +44,13 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/ruin/unpowered)
-"j" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/turf/open/floor/plating/asteroid/no_generation,
-/area/ruin/unpowered)
 "k" = (
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"l" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/turf/open/floor/plating/asteroid/no_generation,
 /area/ruin/unpowered)
 "n" = (
 /obj/effect/turf_decal/box,
 /obj/structure/ore_box,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"p" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/dark{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/dark{
-	dir = 4
-	},
-/turf/open/floor/plating/asteroid/no_generation,
 /area/ruin/unpowered)
 "q" = (
 /obj/effect/spawner/randomsnackvend,
@@ -124,26 +87,6 @@
 /obj/effect/turf_decal/dust,
 /obj/effect/decal/cleanable/greenglow/filled,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"x" = (
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/dark{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/dark{
-	dir = 4
-	},
-/turf/open/floor/plating/asteroid/no_generation,
-/area/ruin/unpowered)
-"z" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/dark{
-	dir = 8
-	},
-/turf/open/floor/plating/asteroid/no_generation,
 /area/ruin/unpowered)
 "A" = (
 /turf/open/floor/plating/asteroid/no_generation,
@@ -185,16 +128,6 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/plasteel,
 /area/ruin/unpowered)
-"J" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/dark{
-	dir = 4
-	},
-/turf/open/floor/plating/asteroid/no_generation,
-/area/ruin/unpowered)
 "K" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green{
@@ -202,15 +135,6 @@
 	pixel_y = 5
 	},
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"L" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/turf/open/floor/plating/asteroid/no_generation,
 /area/ruin/unpowered)
 "M" = (
 /obj/effect/turf_decal/dust,
@@ -221,20 +145,6 @@
 "P" = (
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"R" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/dark{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/dark{
-	dir = 4
-	},
-/obj/structure/lattice,
-/turf/open/floor/plating/asteroid/no_generation,
 /area/ruin/unpowered)
 "S" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -263,16 +173,6 @@
 	id = "exploration_ex_cargo1"
 	},
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
-"X" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/yellow,
-/turf/open/floor/plating/asteroid/no_generation,
 /area/ruin/unpowered)
 "Y" = (
 /obj/machinery/door/poddoor/shutters{
@@ -383,13 +283,13 @@ k
 d
 k
 F
-R
-p
 A
 A
 A
-z
-R
+A
+A
+A
+A
 F
 k
 k
@@ -402,13 +302,13 @@ H
 e
 k
 i
-p
 A
 A
 A
 A
 A
-z
+A
+A
 i
 d
 k
@@ -481,7 +381,7 @@ F
 A
 A
 A
-l
+A
 A
 A
 A
@@ -500,7 +400,7 @@ F
 A
 A
 A
-l
+A
 A
 A
 A
@@ -518,9 +418,9 @@ s
 v
 A
 A
-X
-l
-j
+A
+A
+A
 A
 A
 F
@@ -538,7 +438,7 @@ F
 A
 A
 A
-L
+A
 A
 A
 A
@@ -592,13 +492,13 @@ k
 k
 k
 i
-J
 A
 A
 A
 A
 A
-x
+A
+A
 i
 d
 k
@@ -611,13 +511,13 @@ k
 k
 k
 F
-R
-J
 A
 A
 A
-x
-R
+A
+A
+A
+A
 F
 k
 k

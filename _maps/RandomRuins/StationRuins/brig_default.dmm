@@ -227,14 +227,17 @@
 	pixel_y = 3
 	},
 /obj/item/shield/riot/military,
+/obj/item/stack/sheet/plasteel_armor_plate{
+	amount = 6
+	},
 /obj/item/gun/energy/e_gun/dragnet{
 	pixel_x = -3;
 	pixel_y = -2
 	},
 /obj/item/gun/energy/e_gun/dragnet,
-/obj/item/stack/sheet/armor_plate/ablative/three,
-/obj/item/stack/sheet/armor_plate/ceramic/three,
-/obj/item/stack/sheet/armor_plate/plasteel/three,
+/obj/item/stack/sheet/plasteel_armor_plate{
+	amount = 6
+	},
 /obj/item/full_armor_upgrade,
 /obj/item/full_armor_upgrade,
 /turf/open/floor/plasteel/dark,
@@ -1043,8 +1046,7 @@
 "en" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Equipment Room";
-	req_access_txt = "1";
-	security_level = 6
+	req_access_txt = "1"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1687,7 +1689,7 @@
 /obj/machinery/door/airlock/security/glass{
 	name = "Brig Control";
 	req_access_txt = "3";
-	security_level = 6
+	security_level = 0
 	},
 /obj/structure/cable,
 /obj/machinery/door/firedoor/border_only{
@@ -2189,7 +2191,7 @@
 /obj/machinery/door/airlock/security/glass{
 	name = "Brig Control";
 	req_access_txt = "3";
-	security_level = 6
+	security_level = 0
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -2204,8 +2206,7 @@
 /obj/machinery/door/airlock/security{
 	name = "Security Office";
 	req_access_txt = null;
-	req_one_access_txt = "1;4";
-	security_level = 6
+	req_one_access_txt = "1;4"
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3487,8 +3488,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/command{
 	name = "Head of Security's Office";
-	req_access_txt = "58";
-	security_level = 6
+	req_access_txt = "58"
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,

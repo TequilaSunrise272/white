@@ -1,5 +1,5 @@
 /datum/generator_settings/city
-	probability = 4
+	probability = 7
 	floor_break_prob = 12
 	structure_damage_prob = 6
 

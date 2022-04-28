@@ -42,7 +42,7 @@
 /datum/reagent/medicine/adminordrazine //An OP chemical for admins
 	name = "Админордразин"
 	enname = "Adminordrazine"
-	description = "Вы что то слышали про панацею? Вот это она и есть."
+	description = "Это магия. Не будем объяснять, как."
 	color = "#E0BB00" //golden for the gods
 	taste_description = "щитспавн"
 	chemical_flags = REAGENT_DEAD_PROCESS
@@ -290,7 +290,7 @@
 /datum/reagent/medicine/oxandrolone
 	name = "Оксандролон"
 	enname = "Oxandrolone"
-	description = "Чрезвычайно эффективно заживляет сильные ожоги и воспаления, однако эффект заметно ослабевает при незначительных травмах. Передозировка вызывает аллергическую реакцию с образованием новых ожогов."
+	description = "Stimulates the healing of severe burns. Extremely rapidly heals severe burns and slowly heals minor ones. Overdose will worsen existing burns."
 	reagent_state = LIQUID
 	color = "#1E8BFF"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
@@ -457,7 +457,7 @@
 /datum/reagent/medicine/potass_iodide
 	name = "Йодид Калия"
 	enname = "Potassium Iodide"
-	description = "Нейтрализует воздействие радиации на организм."
+	description = "Efficiently restores low radiation damage."
 	reagent_state = LIQUID
 	color = "#BAA15D"
 	metabolization_rate = 2 * REAGENTS_METABOLISM
@@ -491,7 +491,7 @@
 /datum/reagent/medicine/sal_acid
 	name = "Салициловая Кислота"
 	enname = "Salicylic Acid"
-	description = "Чрезвычайно эффективно заживляет сильные ушибы и раны, однако эффект заметно ослабевает при незначительных травмах. Передозировка вызывает образование новых опухолей и кровоподтеков."
+	description = "Stimulates the healing of severe bruises. Extremely rapidly heals severe bruising and slowly heals minor ones. Overdose will worsen existing bruising."
 	reagent_state = LIQUID
 	color = "#D2D2D2"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
@@ -516,7 +516,7 @@
 /datum/reagent/medicine/salbutamol
 	name = "Сальбутамол"
 	enname = "Salbutamol"
-	description = "Помогает быстро оправиться от удушья, а также в некоторой степени предотвращает последующие приступы."
+	description = "Rapidly restores oxygen deprivation as well as preventing more of it to an extent."
 	reagent_state = LIQUID
 	color = "#00FFFF"
 	metabolization_rate = 0.25 * REAGENTS_METABOLISM
@@ -601,7 +601,7 @@
 /datum/reagent/medicine/morphine
 	name = "Морфий"
 	enname = "Morphine"
-	description = "Обезболивающее, позволяющее преодолевать боль и двигаться вперед даже при тяжелых травмах. В больших дозах вызывает сонливость, вплоть до потери сознания. Передозировка может вызвать тяжелые последствия, начиная от ломки и заканчивая летальным исходом."
+	description = "A painkiller that allows the patient to move at full speed even when injured. Causes drowsiness and eventually unconsciousness in high doses. Overdose will cause a variety of effects, ranging from minor to lethal."
 	reagent_state = LIQUID
 	color = "#A9FBFB"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
@@ -642,7 +642,7 @@
 /datum/reagent/medicine/oculine
 	name = "Окулин"
 	enname = "Oculine"
-	description = "Быстро восстанавливает повреждения глаз, лечит близорукость и имеет шанс восстановить зрение слепым."
+	description = "Quickly restores eye damage, cures nearsightedness, and has a chance to restore vision to the blind."
 	reagent_state = LIQUID
 	color = "#404040" //oculine is dark grey, inacusiate is light grey
 	metabolization_rate = 0.25 * REAGENTS_METABOLISM
@@ -672,7 +672,7 @@
 /datum/reagent/medicine/inacusiate
 	name = "Инакусиат"
 	enname = "Inacusiate"
-	description = "Быстро восстанавливает повреждения ушей, лечит глухоту, при условии, что она не является результатом генетических мутаций или хронической глухоты." //by "chronic" deafness, we mean people with the "deaf" quirk
+	description = "Rapidly repairs damage to the patient's ears to cure deafness, assuming the source of said deafness isn't from genetic mutations, chronic deafness, or a total defecit of ears." //by "chronic" deafness, we mean people with the "deaf" quirk
 	color = "#606060" // ditto
 	ph = 2
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
@@ -716,7 +716,7 @@
 /datum/reagent/medicine/epinephrine
 	name = "Адреналин"
 	enname = "Epinephrine"
-	description = "Стабилизирует пациентов находящихся в критическом состоянии, нейтрализует удушье и мобилизует организм к восстановлению при тяжелых повреждениях. Очень незначительно повышает скорость и стойкость к оглушению. Передозировка вызывает слабость и повреждение токсинами."
+	description = "Very minor boost to stun resistance. Slowly heals damage if a patient is in critical condition, as well as regulating oxygen loss. Overdose causes weakness and toxin damage."
 	reagent_state = LIQUID
 	color = "#D2FFFA"
 	metabolization_rate = 0.25 * REAGENTS_METABOLISM
@@ -814,7 +814,7 @@
 /datum/reagent/medicine/mannitol
 	name = "Маннитол"
 	enname = "Mannitol"
-	description = "Витаминный комплекс для правильной работы мозга. Помогает справится с головными болями и исправления легких повреждений мозга."
+	description = "Efficiently restores brain damage."
 	taste_description = "приятная сладость"
 	color = "#A0A0A0" //mannitol is light grey, neurine is lighter grey
 	ph = 10.4
@@ -836,7 +836,7 @@
 /datum/reagent/medicine/neurine
 	name = "Нейрин"
 	enname = "Neurine"
-	description = "Помогает при лечении легких церебральных травм."
+	description = "Reacts with neural tissue, helping reform damaged connections. Can cure minor traumas."
 	color = "#C0C0C0" //ditto
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -859,7 +859,7 @@
 /datum/reagent/medicine/mutadone
 	name = "Мутадон"
 	enname = "Mutadone"
-	description = "Устраняет генетические мутации и стабилизирует структуру ДНК."
+	description = "Removes jitteriness and restores genetic defects."
 	color = "#5096C8"
 	taste_description = "кислота"
 	ph = 2
@@ -895,7 +895,7 @@
 	. = TRUE
 
 /datum/reagent/medicine/stimulants
-	name = "Стимулятор"
+	name = "Стимуляторы"
 	enname = "Stimulants"
 	description = "Increases stun resistance and movement speed in addition to restoring minor damage and weakness. Overdose causes weakness and toxin damage."
 	color = "#78008C"
@@ -937,7 +937,7 @@
 /datum/reagent/medicine/insulin
 	name = "Инсулин"
 	enname = "Insulin"
-	description = "Помогает подавить гипергликемический приступ."
+	description = "Increases sugar depletion rates."
 	reagent_state = LIQUID
 	color = "#FFFFF0"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
@@ -1274,7 +1274,7 @@
 /datum/reagent/medicine/psicodine
 	name = "Псикодин"
 	enname = "Psicodine"
-	description = "Восстанавливает ясность сознания, подавляет фобии и панические атаки. Передозировка вызывает галюцинации и отравление."
+	description = "Suppresses anxiety and other various forms of mental distress. Overdose causes hallucinations and minor toxin damage."
 	reagent_state = LIQUID
 	color = "#07E79E"
 	metabolization_rate = 0.25 * REAGENTS_METABOLISM

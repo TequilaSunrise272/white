@@ -1,6 +1,6 @@
 /mob/living/carbon/alien/larva
-	name = "лярва чужих"
-	real_name = "лярва чужих"
+	name = "alien larva"
+	real_name = "alien larva"
 	icon_state = "larva0"
 	pass_flags = PASSTABLE | PASSMOB
 	mob_size = MOB_SIZE_SMALL

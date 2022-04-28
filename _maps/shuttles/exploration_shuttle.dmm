@@ -1,11 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
+/obj/machinery/light/directional/west,
 /obj/machinery/airalarm{
 	dir = 1;
 	pixel_y = -22
-	},
-/obj/machinery/light{
-	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
@@ -86,9 +84,6 @@
 /obj/effect/turf_decal/bot,
 /obj/machinery/airalarm{
 	pixel_y = 23
-	},
-/obj/machinery/light{
-	dir = 8
 	},
 /turf/open/floor/plating,
 /area/shuttle/exploration)
@@ -452,9 +447,6 @@
 /area/shuttle/exploration)
 "Q" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/light{
-	dir = 4
-	},
 /turf/open/floor/plating,
 /area/shuttle/exploration)
 "R" = (
@@ -474,9 +466,7 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "T" = (
-/obj/machinery/light{
-	dir = 4
-	},
+/obj/machinery/light/directional/east,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "U" = (
@@ -501,6 +491,7 @@
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/exploration)
 "Z" = (
+/obj/machinery/light/directional/north,
 /obj/effect/turf_decal/bot,
 /obj/machinery/button/door{
 	id = "ex_cab";

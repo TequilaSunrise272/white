@@ -153,3 +153,8 @@
 	. = ..()
 	old_turf_type = oldType
 
+/obj/effect/turf_decal/weather/side // запилите сами мне похуй
+
+/obj/effect/turf_decal/weather/side/corners
+
+	

@@ -6661,7 +6661,6 @@
 /area/maintenance/starboard/aft)
 "oM" = (
 /obj/structure/bed/maint,
-/obj/item/toy/plush/bear,
 /turf/open/floor/plating,
 /area/maintenance/bottom_station_maints/north)
 "oN" = (
@@ -7394,7 +7393,7 @@
 /area/maintenance/space_hut/plasmaman)
 "qp" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood/cataclysmdda,
+/obj/structure/table/wood,
 /obj/item/trash/plate{
 	pixel_y = 5
 	},
@@ -7688,7 +7687,7 @@
 /turf/open/floor/plasteel/monofloor/white,
 /area/security/prison)
 "qY" = (
-/obj/structure/table/wood/cataclysmdda,
+/obj/structure/table/wood,
 /obj/item/toy/plush/carpplushie{
 	pixel_y = 4
 	},
@@ -9481,7 +9480,7 @@
 /area/commons/dorms)
 "uL" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood/cataclysmdda/desk,
+/obj/structure/table/wood/desk,
 /obj/item/flashlight/lamp/green{
 	pixel_x = 3;
 	pixel_y = 11
@@ -14411,7 +14410,7 @@
 /area/commons/fitness/kachalka)
 "Fs" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood/cataclysmdda,
+/obj/structure/table/wood,
 /obj/item/stack/sheet/mineral/bamboo{
 	amount = 30
 	},
@@ -19351,7 +19350,7 @@
 "Ql" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/firealarm/directional/west,
-/obj/structure/table/wood/cataclysmdda,
+/obj/structure/table/wood,
 /obj/item/toy/katana{
 	pixel_x = 4;
 	pixel_y = -2
@@ -20660,7 +20659,7 @@
 	pixel_y = 9
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood/cataclysmdda,
+/obj/structure/table/wood,
 /turf/open/floor/bamboo,
 /area/commons/vacant_room/commissary/third)
 "Tm" = (
@@ -21822,7 +21821,7 @@
 /area/commons/fitness/kachalka)
 "VU" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood/cataclysmdda,
+/obj/structure/table/wood,
 /obj/item/seeds/bamboo{
 	pixel_y = 6
 	},
@@ -23635,7 +23634,7 @@
 /turf/open/floor/plating,
 /area/maintenance/bottom_station_maints/east)
 "ZT" = (
-/obj/structure/table/wood/cataclysmdda,
+/obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/maintenance/three,
 /turf/open/floor/bamboo,
 /area/commons/vacant_room/commissary/third)

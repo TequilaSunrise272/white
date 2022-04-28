@@ -19,3 +19,4 @@
 	if(!istype(handler))
 		return
 	handler.on_spell_cast(src, user, targets)
+//fuck

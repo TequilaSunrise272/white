@@ -3418,8 +3418,7 @@
 /turf/open/floor/wood,
 /area/lawoffice)
 "asp" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp/lavalamp,
+/obj/structure/table/wood,,
 /turf/open/floor/wood,
 /area/commons/dorms/cabin/one)
 "asq" = (
